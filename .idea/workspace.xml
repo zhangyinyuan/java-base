@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86e25cf2-a0ec-47d3-9cb3-fac61bfa9343" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuan/ngu/java/base/StaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuan/ngu/java/base/string/StringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SynchronizedTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuan/ngu/java/base/thread/SynchronizedTest.java">
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2047">
-              <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+            <state relative-caret-position="438">
+              <caret line="434" column="44" selection-start-line="434" selection-start-column="44" selection-end-line="434" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuan/ngu/java/base/string/StringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,20 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StaticTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yuan/ngu/java/base/StaticTest.java">
+      <file leaf-file-name="Logger.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-sources.jar!/org/slf4j/Logger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#1067#1068#0" expanded="true" />
-                <element signature="e#1123#1124#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="563" column="16" selection-start-line="563" selection-start-column="9" selection-end-line="563" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -94,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yuan/ngu/java/base/thread/Synchronized.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yuan/ngu/java/base/thread/SynchronizedTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yuan/ngu/java/base/StaticTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuan/ngu/java/base/string/StringTest.java" />
       </list>
     </option>
   </component>
@@ -145,9 +146,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,41 +181,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java-base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/develop/workspace/java-base/src/main/java/com/yuan/ngu/java/base/thread/SynchronizedTest.java" />
+    <property name="SearchEverywhereHistoryKey" value="String.class&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/String.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-study" />
@@ -243,18 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StaticTest.test">
-    <configuration name="NewScheduledThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuan.ngu.java.base.thread.NewScheduledThreadPoolTest" />
-      <module name="java-base" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuan.ngu.java.base.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StringTest.test">
     <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuan.ngu.java.base.Temp" />
       <module name="java-base" />
@@ -304,6 +267,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.yuan.ngu.java.base" />
       <option name="MAIN_CLASS_NAME" value="com.yuan.ngu.java.base.StaticTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StringTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuan.ngu.java.base.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yuan.ngu.java.base.string" />
+      <option name="MAIN_CLASS_NAME" value="com.yuan.ngu.java.base.string.StringTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -377,19 +363,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.NewScheduledThreadPoolTest" />
       <item itemvalue="Application.Temp" />
       <item itemvalue="JUnit.SynchronizedTest.test" />
       <item itemvalue="JUnit.StaticTest" />
       <item itemvalue="JUnit.StaticTest.test" />
+      <item itemvalue="JUnit.StringTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringTest.test" />
         <item itemvalue="JUnit.StaticTest.test" />
         <item itemvalue="JUnit.StaticTest" />
         <item itemvalue="JUnit.SynchronizedTest.test" />
         <item itemvalue="Application.Temp" />
-        <item itemvalue="Application.NewScheduledThreadPoolTest" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +394,7 @@
       <workItem from="1526785048829" duration="542000" />
       <workItem from="1526804780937" duration="7952000" />
       <workItem from="1526893097246" duration="7416000" />
-      <workItem from="1526912653576" duration="441000" />
+      <workItem from="1526912653576" duration="1722000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1526661665040</created>
@@ -445,43 +431,50 @@
       <option name="project" value="LOCAL" />
       <updated>1526901212702</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="static的学习">
+      <created>1526913332834</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1526913332834</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SynchronizedTest_test - 2018.05.21 at 18h 25m 29s.xml">
-      <configuration name="SynchronizedTest.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test - 2018.05.21 at 22h 44m 44s.xml">
+      <configuration name="StringTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SynchronizedTest_test - 2018.05.21 at 19h 41m 42s.xml">
-      <configuration name="SynchronizedTest.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test - 2018.05.21 at 22h 45m 35s.xml">
+      <configuration name="StringTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StaticTest - 2018.05.21 at 19h 43m 00s.xml">
-      <configuration name="StaticTest" configurationId="JUnit" />
+    <history-entry file="StringTest_test - 2018.05.21 at 22h 45m 46s.xml">
+      <configuration name="StringTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StaticTest_test - 2018.05.21 at 22h 24m 46s.xml">
-      <configuration name="StaticTest.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test - 2018.05.21 at 22h 46m 25s.xml">
+      <configuration name="StringTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StaticTest_test - 2018.05.21 at 22h 26m 49s.xml">
-      <configuration name="StaticTest.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test - 2018.05.21 at 22h 47m 16s.xml">
+      <configuration name="StringTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StaticTest_test - 2018.05.21 at 22h 29m 03s.xml">
-      <configuration name="StaticTest.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test - 2018.05.21 at 22h 48m 43s.xml">
+      <configuration name="StringTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StaticTest_test - 2018.05.21 at 22h 29m 47s.xml">
-      <configuration name="StaticTest.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test - 2018.05.21 at 22h 49m 00s.xml">
+      <configuration name="StringTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StaticTest_test - 2018.05.21 at 22h 31m 07s.xml">
-      <configuration name="StaticTest.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test - 2018.05.21 at 22h 49m 33s.xml">
+      <configuration name="StringTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StaticTest_test - 2018.05.21 at 22h 31m 22s.xml">
-      <configuration name="StaticTest.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test - 2018.05.21 at 22h 51m 42s.xml">
+      <configuration name="StringTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StaticTest_test - 2018.05.21 at 22h 31m 28s.xml">
-      <configuration name="StaticTest.test" configurationId="JUnit" />
+    <history-entry file="StringTest_test - 2018.05.21 at 22h 52m 19s.xml">
+      <configuration name="StringTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24414000" />
+    <option name="totallyTimeSpent" value="25695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -497,11 +490,11 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32983023" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.5580524" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.4307116" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32827324" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49905124" weight="0.33225545" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49905124" weight="0.22392885" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Structure" order="9" sideWeight="0.5009488" side_tool="true" weight="0.32714054" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -521,10 +514,10 @@
       <window_info anchor="bottom" id="Find" order="6" weight="0.32771537" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.5580524" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.4307116" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49905124" weight="0.33225545" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49905124" weight="0.22392885" />
       <window_info anchor="right" id="Structure" order="9" sideWeight="0.5009488" side_tool="true" weight="0.32714054" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -558,7 +551,8 @@
     <MESSAGE value="add test part apache.*.utils" />
     <MESSAGE value="加入线程池,加入@Slf4j,注意 需要写@Slf4j的配置文件" />
     <MESSAGE value="一个类可以有很多个对象实例,但是只有一个class对象,在静态方法加Synchronize就相当于类锁,等价于Sysnchronize(XXX.class).Synchronize不是方法锁,而是对象锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="一个类可以有很多个对象实例,但是只有一个class对象,在静态方法加Synchronize就相当于类锁,等价于Sysnchronize(XXX.class).Synchronize不是方法锁,而是对象锁" />
+    <MESSAGE value="static的学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="static的学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -715,6 +709,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -729,13 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="604" column="26" selection-start-line="604" selection-start-column="26" selection-end-line="604" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuan/ngu/java/base/apache/util/ApacheUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-873">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -781,6 +771,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -796,8 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yuan/ngu/java/base/StaticTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="438">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#374#375#0" expanded="true" />
@@ -806,6 +800,64 @@
             <element signature="e#770#771#0" expanded="true" />
             <element signature="e#1067#1068#0" expanded="true" />
             <element signature="e#1123#1124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar!/org/apache/commons/codec/binary/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuan/ngu/java/base/apache/util/ApacheUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="73" column="34" lean-forward="true" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="113" column="13" lean-forward="true" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#36011#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="434" column="44" selection-start-line="434" selection-start-column="44" selection-end-line="434" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar!/org/slf4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-sources.jar!/org/slf4j/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="563" column="16" selection-start-line="563" selection-start-column="9" selection-end-line="563" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuan/ngu/java/base/string/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
