@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 支持周期性任务和定时任务
+ * 也是一个定长是线程池,不过跟newFixedThreadPool的区别是这个可以执行周期性的操作
  */
 @Slf4j
 public class NewScheduledThreadPoolTest {
